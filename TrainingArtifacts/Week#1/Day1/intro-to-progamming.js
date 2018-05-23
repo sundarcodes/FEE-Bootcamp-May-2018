@@ -49,3 +49,18 @@ if (result > 0) {
 //         fact(inputs[i]));
 // }
 
+// Factorial with recursion
+
+function fact_recursion(n) {
+    if (n == 0) {
+        return 1;
+    }
+    return n * fact_recursion(n - 1);
+}
+
+function fact_tail_recursion(n, result = 1) {
+    if (n == 0) {
+        return result;
+    }
+    return fact_tail_recursion(n - 1, result * n);
+}
