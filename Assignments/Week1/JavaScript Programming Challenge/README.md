@@ -1,4 +1,9 @@
 # Task Description
+1. Write JavaScript programs for all the questions in JS-Coding-Exercises.txt
+2. Have a input element to capture user input.
+3. Display output in the html page itself.
+4. Add/Show validations errors as applicable in HTML page itself.
+
 
 # Folder structure to be followed
 1. Inside the named folder, create an index.html.
