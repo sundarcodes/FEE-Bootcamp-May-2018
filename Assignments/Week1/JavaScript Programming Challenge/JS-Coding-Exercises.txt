@@ -1,0 +1,57 @@
+1) Find the factorial of a given number. If the given number is 5, factorial is computed as 5*4*3*2*1 which equates to 120. Please write a program which would find the factorial for any number.
+Input: 5
+Output: 120
+
+2) If we list all the natural numbers till 10 i.e. 1 to 10, the sum of these numbers is 55. Find the sum of the first 500 natural numbers.
+Input: 10
+Output: 45
+
+3) If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+Input: 10
+Output: 23
+
+4) Given a number, find the closest power of 2 which is less than or equal to the number. If the number is 36, your answer should be 5 as 32 (2^5) is the closest power less than 36.
+Input: 36
+Output: 5
+
+5) Write a program that prints the numbers from 1 to N. But,  for multiples of three,  print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+Input: N = 17
+Output:
+1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17
+
+6) Find all pairs in array of integers whose sum is equal to given number.
+Input: sum = 8
+[1, 4, 3, 5, 4, 6, 7, 8, 3]
+Output:
+"1, 7"
+"4, 4"
+"3, 5"
+"5, 3"
+
+7) Given an array print all the numbers that are repeating in it.
+Input: [1, 2, 3, 5, 8, 4, 7, 9, 1, 4, 12, 5, 6, 5, 2, 1, 0, 8, 1]
+Output:
+"1"
+"2"
+"5"
+"8"
+"4"
+Note: The final order of output need not be the same as above.
+
+8)  Given an object, containing names as keys and amount_paid by each of them as
+values, write a function that takes such an object as input and calculates the total sum paid by them together.
+Input: {"Rick": 85, "Amit": 42, "George": 53, "Tanya": 60, "Linda": 35}
+Output: 275
+
+9) Write a function to check whether a given string is a palindrome or not.
+Input: "Mom"
+Output: true
+Input: "sister"
+Output: false
+
+10) Write a function that takes an array of words and returns an array containing
+only of palindromes.
+Note: Use the above function to check if a word is a palindrome.
+Input: ["Malayalam", "tree", "boat", "civic", "melt", "level"]
+Output: ["Malayalam", "civic", "level"]
