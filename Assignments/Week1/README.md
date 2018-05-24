@@ -8,4 +8,5 @@ At the end of Week 1, all team members are expected to complete the following co
 In addition to this, team members should complete the following assignments:
 
 1. JavaScript Programming Challenge
+2. 2048-Clone
 2. Building a Simple Web Page
