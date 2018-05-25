@@ -29,10 +29,16 @@ h1 {
 .content-container {
     width: 800px;
     margin: auto;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 .footer {
     text-align: center;
     position: relative;
     top: 310px;
+}
+
+a {
+    text-decoration: none;
 }
