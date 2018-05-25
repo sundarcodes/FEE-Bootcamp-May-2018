@@ -3,14 +3,24 @@ body {
 }
 .float-left {
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
 } 
 .float-right {
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.float-right a{
+    margin-right: 10px;
+}
+
+.float-left a {
+    margin-right: 10px;
 }
 .header {
-    height: 30px;
+    background-color: #F8F8F8;
+    height: 50px;
+    border-top: 5px solid red;
 }
 h1 {
   text-align: center;  
