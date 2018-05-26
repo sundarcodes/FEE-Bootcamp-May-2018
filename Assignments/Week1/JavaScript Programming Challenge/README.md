@@ -1,8 +1,8 @@
 # Task Description
 1. Write JavaScript programs for all the questions in JS-Coding-Exercises.txt
 2. Have a input element to capture user input.
-3. Display output in the html page itself.
-4. Add/Show validations errors as applicable in HTML page itself.
+3. Display result in a separate html element (a <p> element or <div> element).
+4. Add/Show validations errors as applicable in separate html elements.
 
 
 # Folder structure to be followed
