@@ -1,0 +1,17 @@
+body {
+    background-color: #6AC5AC;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container  {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    height: 30px;
+    border: 1px solid;
+}
