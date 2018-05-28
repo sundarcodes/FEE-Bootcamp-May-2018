@@ -9,9 +9,15 @@ h1 {
 .container  {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin: 0 75px;
+    grid-gap: 20px 40px;
 }
 
 .item {
     height: 30px;
     border: 1px solid;
+    background-color: white;
+    border-radius: 5px;
+    height: 30vh;
 }
