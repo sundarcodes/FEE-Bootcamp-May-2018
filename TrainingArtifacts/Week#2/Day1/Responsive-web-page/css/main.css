@@ -4,7 +4,19 @@ body {
 }
 
 h1 {
-    text-align: center;
+    position:relative;
+   text-align: center;
+    animation-name: move-left;
+    animation-duration: 2s;
+}
+
+@keyframes move-left {
+    from {
+        left:300px;
+    }
+    to {
+        left: 500px;
+    }
 }
 
 .container  {
@@ -26,6 +38,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 1px 1px;
+    transition: box-shadow ease-in 1s;
+}
+
+.item:hover {
+    box-shadow: 4px 4px
 }
 
 img {
@@ -34,7 +52,7 @@ img {
 
 @media only screen and (max-width: 1200px) {
     .container {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
     }
 }
 
@@ -52,4 +70,8 @@ img {
         display: none;
     }
 }
+
+
+
+
 
