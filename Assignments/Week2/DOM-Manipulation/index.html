@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <title>DOM Manipulation Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <h1 class="text-center">JS DOM Assignment</h1>
+
+    <div class="container">
+
+        <h3>DOM Manipulation</h3>
+
+        <p id="para1">1. Hello there..Could you identify me ? My id is para1. Please log my dom reference to the console.</p>
+        <button class="btn btn-primary" onclick="identifyById()">IdentifyById</button>
+        <hr>
+        <p class="class1">2. Hi again...I don't have a id but you can find by my class which is class1. Please log my dom reference to the
+            console. </p>
+        <button class="btn btn-primary" onclick="identifyByClass()">IdentifyByClass</button>
+        <hr>
+        <p> 3. Oh.Oh.Oh.. wait a minute.. I don't have a id nor do I have a class in me.. Could you find me and my peers if I
+            tell you that I am a p element ? Please console log all my peers along with me.</p>
+        <button class="btn btn-primary" onclick="byTag()">IdentifyByTag</button>
+        <hr>
+        <div id="block1">4. I am inside a div.Can you change my background color to blue.. My id is block1</div>
+        <button class="btn btn-primary" onclick="changeBackground()">Change Background Color</button>
+        <hr>
+        <div id="block2">5. On mouse click, can you increase my fontsize. My id is block2</div>
+        <button class="btn btn-primary" onclick="increaseFont()">Increase Font Size</button>
+        <hr>
+        <div id="block3" onmouseover="changeFontColor()" onmouseout="revertColor()">6. Can you change my font color to green on mouse over.. and roll it back to black when is mouse is moved out.. yeh..my
+            id is block3</div>
+        <hr>
+        <div id="block4" ondblclick="hide()">7. On double click, can you hide me ?. My id is block4</div>
+        <hr> 8. Can you please change all the boxes background color to green. All of them have class as box1 ?
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <button class="btn btn-primary mt-1" onclick="changeBackColor('green ', 'box1' )">Change background color</button>
+        <hr> 9. Can you now change all the box background color to blue on mouse click. All of them have class as box2 ?
+        <div class="box2" onclick="changeBackColor('blue','box2')"></div>
+        <div class="box2" onclick="changeBackColor('blue','box2')"></div>
+        <div class="box2" onclick="changeBackColor('blue','box2')"></div>
+        <hr> 10. Can you just make this textbox to accept only numbers ?
+        <input type="text" id="input1" onkeypress="return numbersOnly(event)">
+        <hr>
+        <p id='para2'>11. Can you add one more para below me with the text "I got generated on the fly...". My id is para2</p>
+        <button class="btn btn-primary" onclick="addAdjacent()">Add new para</button>
+        <hr>
+        <p id='para3'>12. I don't like the fellow below me. Could you remove it. My id is para3 and next elment id is para4</p>
+        <p id='para4'>13. Are you going to remove me ? </p>
+        <button class="btn btn-primary" onclick="removePara()">Remove para4</button>
+        <hr>
+        <p>14. Can you animate the below box. Its id is box5.</p>
+        <div class="box" id="box5" onclick="myMove()"></div>
+        <button class="btn btn-primary mt-1" onclick="animatePara()">Animate</button>
+
+        <hr>
+        <h3>DOM Events</h3>
+
+        <p>1. Change the text entered in the input box to upper case when you move out of the input box.</p>
+        <input type="text" id="inputBox1" >
+        <input type="text" id="inputBox2" >
+        <hr>
+        <p>2. When you leave the input field, transform the input text to camel case.</p>
+        <input type="text" id="inputBox3">
+        <hr>
+        <p>3. Print the preffered browser name to the console, when you select a dropdown value</p>
+        <form>
+            Choose which browser you prefer:
+            <select id="browsers">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Internet Explorer">Internet Explorer</option>
+            </select>
+        </form>
+        <hr>
+        <p>4. When the input field gets focus, change the background-color.</p>
+        <input type="text">
+        <hr>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
