@@ -1,0 +1,45 @@
+$font-family-name: 'Raleway', sans-serif;
+body {
+    font-family: $font-family-name;
+}
+.float-left {
+    float: left;
+    margin-left: 40px;
+} 
+.float-right {
+    float: right;
+    margin-right: 20px;
+    a {
+        margin-right: 10px
+    }
+}
+
+
+.float-left a {
+    margin-right: 10px;
+}
+.header {
+    background-color: #F8F8F8;
+    height: 50px;
+    border-top: 5px solid red;
+}
+h1 {
+  text-align: center;  
+}
+
+.content-container {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 310px;
+}
+
+a {
+    text-decoration: none;
+}

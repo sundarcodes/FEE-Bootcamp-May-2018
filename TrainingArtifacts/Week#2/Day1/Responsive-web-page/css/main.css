@@ -28,12 +28,11 @@ h1 {
 }
 
 .item {
-    height: 30px;
     border: 1px solid transparent;
     background-color: white;
     border-radius: 5px;
-    height: 30vh;
-    width: 20vw;
+    height: 200px;
+    width: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -58,7 +57,7 @@ img {
 
 @media only screen and (max-width: 768px) {
     .container {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
 }
 
