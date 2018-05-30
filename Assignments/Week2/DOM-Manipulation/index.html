@@ -19,38 +19,38 @@
 
         <h3>DOM Manipulation</h3>
 
-        <p id="para1">1. Hello there..Could you identify me ? My id is para1. Please log my dom reference to the console.</p>
+        <p id="para1">1. Hello there..Could you identify me ? My id is para1. Please log my dom reference to the console on click of the button.</p>
         <button class="btn btn-primary" onclick="identifyById()">IdentifyById</button>
         <hr>
         <p class="class1">2. Hi again...I don't have a id but you can find by my class which is class1. Please log my dom reference to the
-            console. </p>
+            console on click of the button. </p>
         <button class="btn btn-primary" onclick="identifyByClass()">IdentifyByClass</button>
         <hr>
         <p> 3. Oh.Oh.Oh.. wait a minute.. I don't have a id nor do I have a class in me.. Could you find me and my peers if I
-            tell you that I am a p element ? Please console log all my peers along with me.</p>
-        <button class="btn btn-primary" onclick="byTag()">IdentifyByTag</button>
+            tell you that I am a p element ? Please console log all my peers along with me on click of the button.</p>
+        <button class="btn btn-primary" onclick="identifyByTag()">IdentifyByTag</button>
         <hr>
-        <div id="block1">4. I am inside a div.Can you change my background color to blue.. My id is block1</div>
+        <div id="block1">4. I am inside a div.Can you change my background color to blue on click of the button... My id is block1</div>
         <button class="btn btn-primary" onclick="changeBackground()">Change Background Color</button>
         <hr>
-        <div id="block2">5. On mouse click, can you increase my fontsize. My id is block2</div>
+        <div id="block2">5. On mouse click, can you increase my fontsize on click of the button. My id is block2</div>
         <button class="btn btn-primary" onclick="increaseFont()">Increase Font Size</button>
         <hr>
-        <div id="block3" onmouseover="changeFontColor()" onmouseout="revertColor()">6. Can you change my font color to green on mouse over.. and roll it back to black when is mouse is moved out.. yeh..my
+        <div id="block3" >6. Can you change my font color to green on mouse over.. and roll it back to black when is mouse is moved out.. yeh..my
             id is block3</div>
         <hr>
-        <div id="block4" ondblclick="hide()">7. On double click, can you hide me ?. My id is block4</div>
+        <div id="block4" >7. On double click, can you hide me ?. My id is block4</div>
         <hr> 8. Can you please change all the boxes background color to green. All of them have class as box1 ?
         <div class="box1"></div>
         <div class="box1"></div>
         <div class="box1"></div>
-        <button class="btn btn-primary mt-1" onclick="changeBackColor('green ', 'box1' )">Change background color</button>
+        <button class="btn btn-primary mt-1" onclick="changeBackColorForAllBox()">Change background color</button>
         <hr> 9. Can you now change all the box background color to blue on mouse click. All of them have class as box2 ?
         <div class="box2" onclick="changeBackColor('blue','box2')"></div>
         <div class="box2" onclick="changeBackColor('blue','box2')"></div>
         <div class="box2" onclick="changeBackColor('blue','box2')"></div>
-        <hr> 10. Can you just make this textbox to accept only numbers ?
-        <input type="text" id="input1" onkeypress="return numbersOnly(event)">
+        <hr> 10. Can you just make this textbox to accept only numbers ?. Don't use input type as number.
+        <input type="text" id="input1">
         <hr>
         <p id='para2'>11. Can you add one more para below me with the text "I got generated on the fly...". My id is para2</p>
         <button class="btn btn-primary" onclick="addAdjacent()">Add new para</button>
