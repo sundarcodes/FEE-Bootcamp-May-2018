@@ -1,0 +1,8 @@
+#calculator-box {
+    height: 700px;
+    width: 500px;
+}
+
+.inner-box {
+    border: 1px solid grey;
+}
