@@ -1,6 +1,6 @@
 # Week 2 Assignment Instructions
 
-At the end of Week 2, all team members are expected to complete the following assignments:
+At the end of Week 2, you are expected to complete the following assignments:
 
 1. Building a responsive web page without using any CSS framework
 2. Building a responsive web page with bootstrap
