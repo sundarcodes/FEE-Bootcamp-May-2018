@@ -1,0 +1,16 @@
+img {
+    height: 100px;
+    position: relative;
+}
+
+#play-ground {
+    height: 80vh;
+    width: 80vw;
+    margin: 20px auto;
+    border: 1px solid #c0392b;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-evenly;
+}
