@@ -10,7 +10,7 @@
     * The score would be number of seconds that user has been playing the game without hitting the boundaries.
     * High scores should be updated whenever the user breaches his/her own high score.
 
-![alt text]("car-animation.gif")
+![alt text](car-animation.gif)
 
 # Points to note
 1. The car image should also change/tilt when changing directions.
