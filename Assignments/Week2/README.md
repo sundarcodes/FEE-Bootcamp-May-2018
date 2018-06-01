@@ -7,7 +7,8 @@ At the end of Week 2, all team members are expected to complete the following as
 3. [jQuery Course](https://www.sololearn.com/Course/jQuery/) in SoloLearn
 4. Solving the DOM Exercises
 5. Building a Calculator (Team Assignment)
-6. Building a game in JS (Team Assignment)
+6. Building a car game in JS (Team Assignment)
+7. Building a TIC TAC TOE game in JS (Team Assignment)
 
 
 Please create a separate git repo in github for each of the assignments except for the team assignments.
