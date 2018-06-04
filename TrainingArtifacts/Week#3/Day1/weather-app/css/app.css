@@ -1,0 +1,11 @@
+button {
+    margin-top: 20px;
+}
+
+.results-hide {
+    display: none;
+}
+
+.results-show {
+    display: block;
+}
