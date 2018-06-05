@@ -1,50 +1,50 @@
-$('#getWeatherBtn').click(function () {
+$('#getWeatherBtn').click(() => {
     console.log('Button clicked');
-    var cityName = $('#cityInput').val();
+    const cityName = $('#cityInput').val();
     $.ajax({
         type: 'GET',
-        url: 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=27d43832d2a4adcb97fcbfa23db130aa',
-        success: function (data) {
+        url: `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=27d43832d2a4adcb97fcbfa23db130aa`,
+        success: (data) => {
             console.log('In success callback');
             console.log(data);
-            var currentTemp = Math.round(data.main.temp - 270);
-            var currentPressure = data.main.pressure;
-            var humidity = data.main.humidity;
+            const currentTemp = Math.round(data.main.temp - 270);
+            const currentPressure = data.main.pressure;
+            const humidity = data.main.humidity;
             $('#currentTemperature').html(currentTemp);
             $('table').removeClass('results-hide');
         },
-        error: function (err) {
+        error: (err) => {
             console.log('In error callback');
             console.log(err);
         }
     });
 })
 
-$('#getForecastBtn').click(function () {
-    var cityName = $('#cityInput').val();
+$('#getForecastBtn').click(() => {
+    const cityName = $('#cityInput').val();
     // Hit the API
     // On Success, parse the forecast information from the response
     // and update the options in the chart
     $.ajax({
         type: 'GET',
-        url: 'http://api.openweathermap.org/data/2.5/forecast?q=' + cityName + '&appid=27d43832d2a4adcb97fcbfa23db130aa',
-        success: function (data) {
+        url: `http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=27d43832d2a4adcb97fcbfa23db130aa`,
+        success: (data) => {
             console.log('In success callback');
             console.log(data);
 
-            listOfDates = data.list.map(function (ele) { return new Date(ele.dt * 1000) });
+            listOfDates = data.list.map((ele) => new Date(ele.dt * 1000));
             console.log(listOfDates);
-            listOfTemp = data.list.map(function (ele) { return Math.round(ele.main.temp - 270) });
+            listOfTemp = data.list.map(ele => Math.round(ele.main.temp - 270));
             console.log(listOfTemp);
             plotChart(listOfTemp, listOfDates);
         },
-        error: function (err) {
+        error: (err) => {
             console.log('In error callback');
             console.log(err);
         }
     });
 
-    function plotChart(tempArr, datesArr) {
+    const plotChart = (tempArr, datesArr) => {
         $('#chart-container').removeClass('results-hide');
         Highcharts.chart('chart-container', {
             chart: {
@@ -61,9 +61,7 @@ $('#getForecastBtn').click(function () {
                     text: 'Temperature'
                 },
                 labels: {
-                    formatter: function () {
-                        return this.value + '°';
-                    }
+                    formatter: () => this.value + '°'
                 }
             },
             tooltip: {
