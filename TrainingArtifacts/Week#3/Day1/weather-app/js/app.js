@@ -1,4 +1,5 @@
 $('#getWeatherBtn').click(() => {
+    $('#chart-container').hide();
     console.log('Button clicked');
     const cityName = $('#cityInput').val();
     $.ajax({
@@ -11,7 +12,7 @@ $('#getWeatherBtn').click(() => {
             const currentPressure = data.main.pressure;
             const humidity = data.main.humidity;
             $('#currentTemperature').html(currentTemp);
-            $('table').removeClass('results-hide');
+            $('table').show();
         },
         error: (err) => {
             console.log('In error callback');
@@ -21,6 +22,7 @@ $('#getWeatherBtn').click(() => {
 })
 
 $('#getForecastBtn').click(() => {
+    $('table').hide();
     const cityName = $('#cityInput').val();
     // Hit the API
     // On Success, parse the forecast information from the response
@@ -32,7 +34,7 @@ $('#getForecastBtn').click(() => {
             console.log('In success callback');
             console.log(data);
 
-            listOfDates = data.list.map((ele) => new Date(ele.dt * 1000));
+            listOfDates = data.list.map((ele) => moment(ele.dt * 1000).format('dddd, h:mm a'));
             console.log(listOfDates);
             listOfTemp = data.list.map(ele => Math.round(ele.main.temp - 270));
             console.log(listOfTemp);
@@ -45,7 +47,7 @@ $('#getForecastBtn').click(() => {
     });
 
     const plotChart = (tempArr, datesArr) => {
-        $('#chart-container').removeClass('results-hide');
+        $('#chart-container').show();
         Highcharts.chart('chart-container', {
             chart: {
                 type: 'spline'
@@ -61,7 +63,7 @@ $('#getForecastBtn').click(() => {
                     text: 'Temperature'
                 },
                 labels: {
-                    formatter: () => this.value + '°'
+                    formatter: function () { return this.value + '°'; }
                 }
             },
             tooltip: {
