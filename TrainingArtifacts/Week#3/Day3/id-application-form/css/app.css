@@ -1,0 +1,11 @@
+input:required:invalid {
+    border: 1px solid red;
+}
+
+.input-group {
+    display: block;
+}
+
+/* .span-for-errors {
+    display: none;
+} */
