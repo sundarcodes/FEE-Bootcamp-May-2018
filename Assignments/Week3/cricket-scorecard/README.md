@@ -1,6 +1,6 @@
 # Task description
 
-Build a cricket scorecard program in nodeJs
+Build a cricket scorecard program in nodeJs using TypeScript.
 1.  The input to the program would be an array of objects with each object having the details of the ball bowled.
 2. The first object would have details of the first ball bowled, the second object for the second ball bowled and so on.
 3. The input format is given below.

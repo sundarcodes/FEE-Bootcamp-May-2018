@@ -3,7 +3,7 @@
 ### Day # 1
 
 	* What are the use of gulp/grunt build tools ?
-	* What is Weback and what is use of it ?
+	* What is Webpack and what is use of it ?
 	* Differenent HTTP Methods - GET/POST/PUT/PATCH/DELETE
 	* Difference between PUT & PATCH
 	* What is Service Oriented Architecture ?
