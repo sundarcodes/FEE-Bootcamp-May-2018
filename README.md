@@ -1,9 +1,8 @@
-# FEE-Bootcamp-May-2018
-Front End Bootcamp
+# FEE-Bootcamp
+Front End Engineering Bootcamp
 
-This repo is going to hold all the artifacts generated during the live coding sessions and assignments to be completed.
+This repo is going to hold all the artifacts,  generated during the live coding sessions, topics you have to learn and the assignments to be completed as a part of this bootcamp.
 
-You could find the assignments and the training artificats weekwise.
 
 
 
