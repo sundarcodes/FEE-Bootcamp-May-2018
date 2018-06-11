@@ -16,3 +16,15 @@ button {
     height: 400px;
     margin: 0 auto
 }
+
+#forecast-days {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
