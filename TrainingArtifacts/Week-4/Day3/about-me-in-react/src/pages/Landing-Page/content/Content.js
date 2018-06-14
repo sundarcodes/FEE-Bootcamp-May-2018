@@ -19,8 +19,10 @@ class LandingPageContent extends Component {
       to write in such a way people are able to read, understand, learn, appreciate and maintain it.</p>
                     <p>The
       <a href="posts.html">posts</a> are my own little way of sharing my knowledge and giving back to the community from where I have learned
-                                                            a lot. I also believe that knowledge is one of few commodities which when shared never decreases but on the contrary
+                                                                                                a lot. I also believe that knowledge is one of few commodities which when shared never decreases but on the contrary
       increases :) Would love to have your feedback, comments on my ramblings as its all based on my own little experiences..</p>
+                    <h2>Hello  {this.props.name}!!!</h2>
+
                 </div>
             </section>
         )

@@ -7,7 +7,7 @@ class LandingPage extends Component {
         return (
             <div>
                 <Header />
-                <LandingPageContent />
+                <LandingPageContent name="friends" />
             </div>
         )
     }
