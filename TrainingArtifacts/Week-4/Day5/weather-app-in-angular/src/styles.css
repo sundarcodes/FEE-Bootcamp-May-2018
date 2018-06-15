@@ -1,0 +1,217 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0px auto;
+    position: relative;
+}
+
+.input-group {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.main-container {
+    width: 632px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 8px grey;
+    background-color: white;
+}
+
+#search {
+    height: 34px;
+    padding: 4px;
+    margin-top: 0px;
+}
+
+#searched-place {
+    width: 100%;
+    height: 31px;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    color: #878787;
+}
+
+#current-day {
+    width: 100%;
+    height: 20px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+}
+
+.weather-condition {
+    width: 100%;
+    height: 20px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+}
+
+#temp-disp {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 15px;
+}
+
+.banner-left {
+    width: 40%;
+    height: inherit;
+    float: left;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    height: inherit;
+}
+
+#temp {
+    font-size: 64px;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    font-weight: lighter;
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    font-stretch: 100%;
+    height: inherit;
+}
+
+.col2_1 {
+    float: left;
+    width: 42%;
+    height: inherit;
+    margin-top: -13px;
+}
+
+.col2_2 {
+    float: left;
+    width: 29%;
+    height: inherit;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    color: #212121;
+    font-size: 16px;
+    margin-top: 3px;
+    cursor: default;
+}
+
+.banner-right {
+    width: 60%;
+    height: inherit;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row1 {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+    margin: 0px 0px 16px 90px;
+    line-height: 22px;
+}
+
+.row2 {
+    margin: 0px 0px 0px 90px;
+}
+
+.btn {
+    width: 83px;
+    height: 29px;
+    background-color: #f5f5f5;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 2px 0;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    color: #444;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chart {
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 20px;
+}
+
+.forecast {
+    width: 100%;
+    height: 92px;
+    float: left;
+}
+
+.col-xs-3 {
+    width: 75px;
+    height: 92px;
+}
+
+.col-xs-6 {
+    width: 48%;
+    padding: 0px;
+}
+
+#fore1 {
+    margin-left: 20px;
+}
+
+.col-xs-3 img {
+    width: 48px;
+    height: 48px;
+}
+
+.col-xs-3 p {
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: #bababa;
+}
+
+#high1,
+#high2,
+#high3,
+#high4,
+#high5,
+#high6,
+#high7,
+#high8 {
+    color: #878787;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+#low1,
+#low2,
+#low3,
+#low4,
+#low5,
+#low6,
+#low7,
+#low8,
+#low9 {
+    font-size: 13px;
+    padding-left: 5px;
+}
