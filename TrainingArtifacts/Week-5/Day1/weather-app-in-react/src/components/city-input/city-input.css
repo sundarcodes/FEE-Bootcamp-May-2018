@@ -1,0 +1,10 @@
+.input-group {
+    width: 50%;
+    margin: 20px auto;
+}
+
+#search {
+    height: 34px;
+    padding: 4px;
+    margin-top: 0px;
+}
