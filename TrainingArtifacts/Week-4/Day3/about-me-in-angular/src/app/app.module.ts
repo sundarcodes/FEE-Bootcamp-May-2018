@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { PostsPageComponent } from './pages/posts-page/posts-page.component';
+import { RouterModule } from '@angular/router';
+import { routes } from './routes';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { PostsPageComponent } from './pages/posts-page/posts-page.component';
     PostsPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
