@@ -11,6 +11,8 @@ class LandingPage extends Component {
                     <Link to="login" className="btn btn-primary">Login</Link>
                     <Link to="interviewer-signup" className="btn btn-primary">Sign up as Interviewer</Link>
                     <Link to="admin-signup" className="btn btn-primary">Sign up as Admin</Link>
+                    <Link to="admin" className="btn btn-primary">Go to Admin Dashboard</Link>
+                    <Link to="interviewer" className="btn btn-primary">Go to Interviewer Dashboard</Link>
                 </div>
             </div>
         );
