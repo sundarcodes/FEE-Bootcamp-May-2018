@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('islot-in-angular App', () => {
+describe('form-validation-in-angular App', () => {
   let page: AppPage;
 
   beforeEach(() => {
