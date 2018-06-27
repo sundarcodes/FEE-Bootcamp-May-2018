@@ -10,3 +10,11 @@
 	* What is the need for building an API ?
 	* What is a RESTFUL API ?
 	* What is HATEOAS?
+
+### Day # 2
+
+	* RDBMS vs NoSQL
+    * When to use RDBMS and when to use NoSQL ?
+ 	* Differenet RDBMS & Different NoSQL stores - Popular ones
+	* OLAP vs OLTP 
+	* What is ETL ?
